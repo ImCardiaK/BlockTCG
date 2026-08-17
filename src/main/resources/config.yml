@@ -1,0 +1,14 @@
+# Règles générales de BlockTCG.
+# Les menus, l'économie et les NPC ont leurs propres fichiers dédiés.
+
+game:
+  starting-coins: 250
+  deck-size: 30
+  max-copies-per-card: 2
+  starting-health: 30
+  starting-hand: 5
+  max-mana: 10
+  trade-request-timeout-seconds: 60
+
+messages:
+  prefix: "&8[&6BlockTCG&8] &r"

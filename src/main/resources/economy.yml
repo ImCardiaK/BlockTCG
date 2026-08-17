@@ -1,0 +1,31 @@
+# Toute l'économie BlockTCG est centralisée ici.
+rewards:
+  duel-vs-player: 30
+  duel-vs-npc: 80
+
+merchant:
+  # Prix de base d'achat, avant la valeur des statistiques.
+  buy:
+    COMMON: 20
+    UNCOMMON: 35
+    RARE: 60
+    EPIC: 110
+    LEGENDARY: 200
+
+  # Prix de base de revente.
+  sell:
+    COMMON: 6
+    UNCOMMON: 12
+    RARE: 22
+    EPIC: 40
+    LEGENDARY: 75
+
+  stat-value:
+    attack: 2
+    defense: 2
+    mana: 3
+
+  sell-stat-value:
+    attack: 1
+    defense: 1
+    mana: 1
