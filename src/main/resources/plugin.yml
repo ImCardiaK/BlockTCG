@@ -1,0 +1,18 @@
+name: BlockTCG
+version: '${version}'
+main: fr.cardiaouk.blocktcg.BlockTCGPlugin
+description: Trading Card Game complet pour Paper 1.21.11
+author: Cardiaouk
+api-version: '1.21.11'
+commands:
+  tcg:
+    description: Commande principale de BlockTCG
+    usage: /tcg help
+    aliases: [blocktcg, cards]
+permissions:
+  blocktcg.admin:
+    default: op
+    description: Administration complète de BlockTCG
+  blocktcg.play:
+    default: true
+    description: Utilisation normale du TCG
