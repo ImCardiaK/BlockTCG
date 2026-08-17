@@ -1,0 +1,12 @@
+# Réglages des marchands et duellistes BlockTCG.
+display-name: true
+disable-ai: true
+invulnerable: true
+
+# Tous les EntityType Bukkit/Paper réellement spawnables sont autorisés.
+# Rôles: merchant, duelist, deckmerchant.
+merchant:
+  # Chaque marchand possède un stock différent, calculé avec son UUID et le cycle.
+  card-stock-size: 18
+  rotation-minutes: 30
+  rotation-check-seconds: 30

@@ -1,0 +1,26 @@
+# Interface et présentation des menus BlockTCG
+cards:
+  # Les IDs techniques sont masqués aux joueurs normaux.
+  show-id-to-admins: true
+
+decks:
+  # CHEST ou n'importe quelle *_SHULKER_BOX.
+  default-container: PURPLE_SHULKER_BOX
+  allowed-containers:
+    - CHEST
+    - WHITE_SHULKER_BOX
+    - ORANGE_SHULKER_BOX
+    - MAGENTA_SHULKER_BOX
+    - LIGHT_BLUE_SHULKER_BOX
+    - YELLOW_SHULKER_BOX
+    - LIME_SHULKER_BOX
+    - PINK_SHULKER_BOX
+    - GRAY_SHULKER_BOX
+    - LIGHT_GRAY_SHULKER_BOX
+    - CYAN_SHULKER_BOX
+    - PURPLE_SHULKER_BOX
+    - BLUE_SHULKER_BOX
+    - BROWN_SHULKER_BOX
+    - GREEN_SHULKER_BOX
+    - RED_SHULKER_BOX
+    - BLACK_SHULKER_BOX
