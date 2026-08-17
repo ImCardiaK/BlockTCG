@@ -1,7 +1,0 @@
-# Réglages des marchands et duellistes BlockTCG.
-display-name: true
-disable-ai: true
-invulnerable: true
-
-# Tous les EntityType Bukkit/Paper réellement spawnables sont autorisés.
-# Exemples: VILLAGER, ZOMBIE, SKELETON, ALLAY, ARMOR_STAND, CAMEL, BEE...
